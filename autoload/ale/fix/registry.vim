@@ -169,6 +169,11 @@ let s:default_registry = {
 \       'suggested_filetypes': ['json'],
 \       'description': 'Fix JSON files with jq.',
 \   },
+\   'phpcsfixer': {
+\       'function': 'ale#fixers#phpcsfixer#Fix',
+\       'suggested_filetypes': ['php'],
+\       'description': 'Fix PHP files with PHP-CS-Fixer.',
+\   },
 \}
 
 " Reset the function registry to the default entries.
